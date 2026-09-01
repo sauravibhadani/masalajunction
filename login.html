@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin Sign In | Masala Junction</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page login-page">
+  <main class="login-shell">
+    <section class="login-card" aria-labelledby="login-title">
+      <a class="brand footer-brand" href="/" aria-label="Back to Masala Junction website">
+        <span class="brand-mark" aria-hidden="true">MJ</span>
+        <span>
+          <strong>Masala Junction</strong>
+          <small>Reservations Admin</small>
+        </span>
+      </a>
+      <p class="eyebrow">Private area</p>
+      <h1 id="login-title">Sign in</h1>
+      <p class="reservation-note">Use the password configured for the café administrator.</p>
+      <form class="reservation-form" data-login-form>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" autocomplete="current-password" required autofocus>
+        </label>
+        <p class="form-status" data-login-status aria-live="polite"></p>
+        <button class="btn" type="submit">Sign in</button>
+      </form>
+    </section>
+  </main>
+  <script src="login.js" defer></script>
+</body>
+</html>
